@@ -49,7 +49,7 @@ namespace Calculator
                 case "p":
                     result = Math.Pow(num1, num2);
                     Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                    Console.BackgroundColor = ConsoleColor.DarkYellow;
+                    Console.BackgroundColor = ConsoleColor.DarkGray;
                     Console.Clear();
                     break;
                 case "r":
