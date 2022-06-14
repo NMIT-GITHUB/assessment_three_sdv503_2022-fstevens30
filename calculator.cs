@@ -24,21 +24,39 @@ namespace Calculator
             {
                 case "a":
                     result = num1 + num2; //E.G when "a" is entered it will perform this equation
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.Clear(); //Clears the console and changes the colors of the console when answer is displayed 
                     break;
                 case "s":
                     result = num1 - num2;
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Console.Clear();
                     break;
                 case "m":
                     result = num1 * num2;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.BackgroundColor = ConsoleColor.Yellow;
+                    Console.Clear();
                     break;
                 case "d":
                     result = num1 / num2;
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = ConsoleColor.Magenta;
+                    Console.Clear();
                     break;
                 case "p":
                     result = Math.Pow(num1, num2);
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                    Console.BackgroundColor = ConsoleColor.DarkYellow;
+                    Console.Clear();
                     break;
                 case "r":
                     result = num1 % num2;
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Console.Clear();
                     break;
                 default:
                     Console.WriteLine("Invalid operator input"); //If the input is any different from the inputs provided it will show this error
