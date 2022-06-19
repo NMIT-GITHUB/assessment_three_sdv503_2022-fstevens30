@@ -9,6 +9,6 @@ int num3 = arr[2].Max();
 
 int[] finalArr = new int[] { num1, num2, num3 }; //Declaring a single-dimensional array
 
-Console.WriteLine(String.Join("," finalArr.Cast<int>()));
+Console.WriteLine(String.Join(",", finalArr.Cast<int>()));
 //Using String.Join to print the finalArr with "," between each integer
 //Also using .Cast to convert the elements of finalArr to integer
